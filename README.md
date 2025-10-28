@@ -32,8 +32,6 @@ This visualization lets users explore how air quality changes over time across P
 
 Interactive features include a dropdown to choose stations, a checkbox to toggle raw daily data, and a fixed legend for clarity. These elements help users move smoothly between overview and detail without losing context.
 
-This visualization took approximately **15-20 hours** to complete. 
-
 ### Visualization 2: RankCompareChart.svelte
 At the start, I sketched out several visualization ideas to explore different ways of representing the data. I explored a map-based visualization to show how air quality changes across Pittsburgh over time. My plan was to plot circles on a city map, sized by PM2.5 values, colored by AQI level, with tooltips on hover. However, the cities in the dataset weren’t spread out enough for the map to be clear or effective. I also considered an interactive dashboard showing all eight counties to make it easier to compare stations, but this approach was difficult to read and didn’t clearly answer a specific question.
 
@@ -42,8 +40,6 @@ This prompted a shift toward the question: **Which Pittsburgh neighborhoods have
 Users can compare up to two stations side by side, with a panel displaying average and median AQI, the worst recorded day, total data days, category breakdowns, and qualitative ratings (excellent/acceptable/poor).
 
 These design decisions were guided by peer feedback and aimed to make the data easier to interpret at a glance, show meaningful differences between neighborhoods, and support both broad exploration and focused comparison.
-
-This process took approximately **20-25 hours** to complete.
 
 ### Time-Consuming Aspects
 The most time-consuming part of the project was learning how to work with Svelte and D3. Both have extensive documentation and multiple ways to accomplish the same task, so a lot of effort went into figuring out the most concise and reliable approach. Styling also took time, as I spent a lot of trial and error making the charts, legends, and tooltips visually consistent and easy to interpret.
